@@ -1,0 +1,3 @@
+[submodule "nondex/reflectasm"]
+	path = nondex/reflectasm
+	url = https://github.com/EsotericSoftware/reflectasm.git
