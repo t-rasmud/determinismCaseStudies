@@ -46,3 +46,6 @@
 [submodule "nondex/junit4"]
 	path = nondex/junit4
 	url = https://github.com/junit-team/junit4.git
+[submodule "nondex/org-json"]
+	path = nondex/org-json
+	url = https://github.com/ning/org-json.git
