@@ -13,3 +13,6 @@
 [submodule "nondex/oryx"]
 	path = nondex/oryx
 	url = https://github.com/OryxProject/oryx.git
+[submodule "nondex/visualee"]
+	path = nondex/visualee
+	url = https://github.com/Thomas-S-B/visualee.git
