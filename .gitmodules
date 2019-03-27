@@ -58,3 +58,6 @@
 [submodule "nondex/ActionGenerator"]
 	path = nondex/ActionGenerator
 	url = https://github.com/sematext/ActionGenerator.git
+[submodule "nondex/objectify"]
+	path = nondex/objectify
+	url = https://github.com/objectify/objectify.git
