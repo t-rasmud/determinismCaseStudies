@@ -61,3 +61,6 @@
 [submodule "nondex/objectify"]
 	path = nondex/objectify
 	url = https://github.com/objectify/objectify.git
+[submodule "nondex/wsdoc"]
+	path = nondex/wsdoc
+	url = https://github.com/versly/wsdoc.git
