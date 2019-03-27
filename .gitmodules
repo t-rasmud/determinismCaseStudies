@@ -28,3 +28,6 @@
 [submodule "nondex/vraptor"]
 	path = nondex/vraptor
 	url = https://github.com/caelum/vraptor.git
+[submodule "nondex/scribejava"]
+	path = nondex/scribejava
+	url = https://github.com/scribejava/scribejava.git
