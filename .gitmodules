@@ -10,3 +10,6 @@
 [submodule "nondex/joda-time"]
 	path = nondex/joda-time
 	url = https://github.com/JodaOrg/joda-time.git
+[submodule "nondex/oryx"]
+	path = nondex/oryx
+	url = https://github.com/OryxProject/oryx.git
