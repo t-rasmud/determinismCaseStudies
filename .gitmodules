@@ -25,3 +25,6 @@
 [submodule "nondex/edn-java"]
 	path = nondex/edn-java
 	url = https://github.com/bpsm/edn-java.git
+[submodule "nondex/vraptor"]
+	path = nondex/vraptor
+	url = https://github.com/caelum/vraptor.git
