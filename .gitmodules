@@ -16,3 +16,6 @@
 [submodule "nondex/visualee"]
 	path = nondex/visualee
 	url = https://github.com/Thomas-S-B/visualee.git
+[submodule "nondex/commons-cli"]
+	path = nondex/commons-cli
+	url = https://github.com/apache/commons-cli.git
