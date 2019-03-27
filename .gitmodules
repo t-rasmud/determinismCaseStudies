@@ -55,3 +55,6 @@
 [submodule "nondex/slf4j"]
 	path = nondex/slf4j
 	url = https://github.com/qos-ch/slf4j.git
+[submodule "nondex/ActionGenerator"]
+	path = nondex/ActionGenerator
+	url = https://github.com/sematext/ActionGenerator.git
