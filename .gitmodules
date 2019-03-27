@@ -37,3 +37,12 @@
 [submodule "nondex/handlebars.java"]
 	path = nondex/handlebars.java
 	url = https://github.com/jknack/handlebars.java.git
+[submodule "nondex/assertj-core"]
+	path = nondex/assertj-core
+	url = https://github.com/joel-costigliola/assertj-core.git
+[submodule "nondex/jscep"]
+	path = nondex/jscep
+	url = https://github.com/jscep/jscep.git
+[submodule "nondex/junit4"]
+	path = nondex/junit4
+	url = https://github.com/junit-team/junit4.git
