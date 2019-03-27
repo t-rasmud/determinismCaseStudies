@@ -22,3 +22,6 @@
 [submodule "nondex/commons-lang"]
 	path = nondex/commons-lang
 	url = https://github.com/apache/commons-lang.git
+[submodule "nondex/edn-java"]
+	path = nondex/edn-java
+	url = https://github.com/bpsm/edn-java.git
