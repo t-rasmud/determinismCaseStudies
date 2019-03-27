@@ -31,3 +31,6 @@
 [submodule "nondex/scribejava"]
 	path = nondex/scribejava
 	url = https://github.com/scribejava/scribejava.git
+[submodule "nondex/geoserver-manager"]
+	path = nondex/geoserver-manager
+	url = https://github.com/geosolutions-it/geoserver-manager.git
