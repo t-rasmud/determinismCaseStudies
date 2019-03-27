@@ -1,3 +1,12 @@
 [submodule "nondex/reflectasm"]
 	path = nondex/reflectasm
 	url = https://github.com/EsotericSoftware/reflectasm.git
+[submodule "nondex/yamlbeans"]
+	path = nondex/yamlbeans
+	url = https://github.com/EsotericSoftware/yamlbeans.git
+[submodule "joda-time"]
+	path = joda-time
+	url = https://github.com/JodaOrg/joda-time.git
+[submodule "nondex/joda-time"]
+	path = nondex/joda-time
+	url = https://github.com/JodaOrg/joda-time.git
