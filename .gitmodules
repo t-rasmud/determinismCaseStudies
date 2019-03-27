@@ -34,3 +34,6 @@
 [submodule "nondex/geoserver-manager"]
 	path = nondex/geoserver-manager
 	url = https://github.com/geosolutions-it/geoserver-manager.git
+[submodule "nondex/handlebars.java"]
+	path = nondex/handlebars.java
+	url = https://github.com/jknack/handlebars.java.git
