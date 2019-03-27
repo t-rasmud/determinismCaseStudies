@@ -49,3 +49,9 @@
 [submodule "nondex/org-json"]
 	path = nondex/org-json
 	url = https://github.com/ning/org-json.git
+[submodule "slf4j"]
+	path = slf4j
+	url = https://github.com/qos-ch/slf4j.git
+[submodule "nondex/slf4j"]
+	path = nondex/slf4j
+	url = https://github.com/qos-ch/slf4j.git
