@@ -221,21 +221,12 @@ public class YamlWriter {
 
 		if (object instanceof Map) {
 			emitter.emit(new MappingStartEvent(anchor, tag, !showTag, false));
-			@Det Set<@Det Object> items = ((Map)object).entrySet();
-			@Det Iterator<@Det Object> itemIterator = items.iterator();
-			while (itemIterator.hasNext()) {
-				Object item = itemIterator.next();
+			for (@Det Object item : ((@Det Map)object).entrySet()) {
 				Entry entry = (Entry)item;
 				writeValue(entry.getKey(), null, null, null);
 				if (isRoot && !config.writeConfig.writeRootElementTags) elementType = entry.getValue().getClass();
 				writeValue(entry.getValue(), elementType, null, null);
 			}
-//			for (@Det Object item : ((Map)object).entrySet()) {
-//				Entry entry = (Entry)item;
-//				writeValue(entry.getKey(), null, null, null);
-//				if (isRoot && !config.writeConfig.writeRootElementTags) elementType = entry.getValue().getClass();
-//				writeValue(entry.getValue(), elementType, null, null);
-//			}
 			emitter.emit(Event.MAPPING_END);
 			return;
 		}
