@@ -3,7 +3,7 @@ git submodule init
 git submodule update
 git checkout fad946a1d
 cp ../../nondex_det/commons-lang/pom.xml ./
-cp ../../nondex_det/commons-lang/commons-lang/CompareToBuilder.java src/main/java/org/apache/commons/lang3/builder/
+cp ../../nondex_det/commons-lang/CompareToBuilder.java src/main/java/org/apache/commons/lang3/builder/
 cp ../../nondex_det/commons-lang/EqualsBuilder.java src/main/java/org/apache/commons/lang3/builder/
 cp ../../nondex_det/commons-lang/HashCodeBuilder.java src/main/java/org/apache/commons/lang3/builder/
 cp ../../nondex_det/commons-lang/ReflectionToStringBuilder.java src/main/java/org/apache/commons/lang3/builder/

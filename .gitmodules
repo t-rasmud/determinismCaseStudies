@@ -64,3 +64,6 @@
 [submodule "nondex/wsdoc"]
 	path = nondex/wsdoc
 	url = https://github.com/versly/wsdoc.git
+[submodule "nondex/easy-batch"]
+	path = nondex/easy-batch
+	url = https://github.com/j-easy/easy-batch

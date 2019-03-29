@@ -266,7 +266,6 @@ public class Printers {
             @Override
             public void eval(@PolyDet Map<? extends @PolyDet Object,? extends @PolyDet Object> self, Printer writer) {
                 writer.append('{');
-                @Det Set<? extends Map.Entry<?, ?>> temp = self.entrySet();
                 for (Map.@Det Entry<? extends @Det Object,? extends @Det Object> p: self.entrySet()) {
                     writer.printValue(p.getKey())
                     .printValue(p.getValue());
