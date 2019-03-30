@@ -140,8 +140,7 @@ public final class PkiMessageDecoder {
         if (LOGGER.isDebugEnabled()) {
             LOGGER.debug("pkiMessage has {} signed attributes:", signerInfo
                     .getSignedAttributes().size());
-            @Det Set<@Det Entry<@Det ASN1ObjectIdentifier, @Det Attribute>> entries = attrTable.entrySet();
-            for (Entry<ASN1ObjectIdentifier, Attribute> entry : attrTable
+            for (@Det Entry<@Det ASN1ObjectIdentifier, @Det Attribute> entry : attrTable
                     .entrySet()) {
                 LOGGER.debug("  {}: {}", entry.getKey().getId(), entry
                         .getValue().getAttrValues());
