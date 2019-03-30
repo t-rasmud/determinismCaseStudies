@@ -88,7 +88,6 @@ public class Maps {
     if (map == null) {
       return null;
     }
-    @Det Set<? extends @Det Entry<? extends @Det Object, ? extends @Det Object>> entries = map.entrySet();
     @Det Iterator<? extends @Det Object> i = map.entrySet().iterator();
     if (!i.hasNext()) {
       return "{}";
