@@ -105,16 +105,12 @@ public class GSLayerEncoder21 extends GSLayerEncoder {
 	 * @param authorityURLInfo
 	 */
 	public void addAuthorityURL(GSAuthorityURLInfoEncoder authorityURLInfo){
-		@Det GSAuthorityURLInfoEncoder temp = authorityURLInfo;
 		if(authorityURLList == null){
 			authorityURLList = new HashMap<String,String>();
 		}
 		authorityURLList.put(authorityURLInfo.getHref(), authorityURLInfo.getName());
 		String jsonStr = "";
-//		@Det Set<@Det Entry<String, String>> st = authorityURLList.entrySet();
-//		@Det Iterator<@Det Entry<@Det String, @Det String>> stIt = st.iterator();
-//		@Det Entry<@Det String, @Det String> entr = stIt.next();
-		for(Entry<String, String> entry : authorityURLList.entrySet()){
+		for(@Det Entry<@Det String, @Det String> entry : authorityURLList.entrySet()){
 			jsonStr += "{"+
 					"\""+AuthorityURLInfo.name.name()+"\":\""+entry.getValue()+"\","+
 					"\""+AuthorityURLInfo.href.name()+"\":\""+entry.getKey()+"\""+
