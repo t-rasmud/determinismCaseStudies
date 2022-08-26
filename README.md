@@ -14,7 +14,7 @@ cd $CHECKERFRAMEWORK
 ```
 # Running the determinism checker on a benchmark
 
-Ensure that environment variable `CHECKERFRAMEWORK` is set and it points to the the directory that contains the determinism checker.
+Ensure that environment variable `CHECKERFRAMEWORK` is set and it points to the directory that contains the determinism checker.
 
 Commands to run determinism checker on `reflectasm`:
 ```
